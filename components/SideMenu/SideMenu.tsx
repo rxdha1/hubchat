@@ -48,7 +48,7 @@ const SideMenu = ({
             />
           </div>
           <p className={`text-white text-[30px] ${plusJakartaSans.className} `}>
-            Recoup
+            Record Label Hub
           </p>
         </div>
         <button type="button" onClick={toggleModal}>

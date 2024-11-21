@@ -44,7 +44,7 @@ const ChatInput: React.FC = () => {
               value={input}
               onChange={handleInputChange}
               onKeyDown={handleKeyDown}
-              placeholder="Ask Recoup a question..."
+              placeholder="Ask The Exec a question..."
               className="bg-transparent w-full p-2 text-sm !border-none !outline-none rounded-md resize-none min-h-[40px] max-h-[200px] overflow-y-auto"
               aria-label="Chat input"
             />
