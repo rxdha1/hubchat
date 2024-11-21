@@ -1,0 +1,32 @@
+closedqa:
+  prompt: |-
+    Here is the data:
+    [BEGIN DATA]
+    ***
+    [Task]: {input}
+    ***
+    [Submission]: {completion}
+    ***
+    [Criterion]: {criteria}
+    ***
+    [END DATA]
+    You should provide answer as followed below instruction step while evaluating the submission:
+      1. IMPORTANT: IT IS CRUCIAL THAT THIS LINE IS INCLUDED ABSOLUTELY IN YOUR ANSWER.
+        • REPEAT THE completion SENTENCE in the format -> [BEGIN SUBMISSION]: ...completion text... [END SUBMISSION]
+      2. Write out in a step-by-step manner your reasoning about the criterion. 
+      3. At the end, print only the single character "Y" or "N" (without quotes or punctuation) on its own line corresponding to the correct answer. 
+      4. Finally, repeat just the letter again by itself on a new line.
+
+    Below is your reply format:
+      [BEGIN SUBMISSION]: 
+        ...completion text....
+      [END SUBMISSION]
+      ...reasoning... 
+
+  eval_type: cot_classify
+  choice_scores:
+    "Y": 1.0
+    "N": 0.0
+  choice_strings: 'YN'
+  input_outputs:
+    input: "completion"
