@@ -8,9 +8,9 @@ export const SCORE_POINT_SYSTEM_ID = 4186;
 // Vercel AI SDK
 export const AI_MODEL = "gpt-4o-mini";
 
-export const TITLE = "Recoup";
+export const TITLE = "Record Label Hub";
 export const DESCRIPTION =
-  "Recoup is an AI agent platform for smarter song rollouts, unforgettable fan experiences, and lasting artist growth. Empowering music executives with actionable insights and next-gen tools to elevate every artist and engage every fan.";
+  "Record Label Hub is an AI agent platform for smarter song rollouts, unforgettable fan experiences, and lasting artist growth. Empowering music executives with actionable insights and next-gen tools to elevate every artist and engage every fan.";
 
 export const SUGGESTIONS = [
   "How is my current campaign going?",

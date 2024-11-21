@@ -1,17 +1,17 @@
-# Recoup | AI Agents Made for the Music Industry
+# Record Label Hub | AI Agents Made for the Music Industry
 
 This is a [Next.js](https://nextjs.org) project made with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Description
 
-Recoup is an AI agent platform fueling smarter song rollouts, unforgettable fan experiences and lasting artist growth -- Empowering music executives with actionable insights and next-gen tools to elevate every artist and engage every fan.
+Record Label Hub is an AI agent platform fueling smarter song rollouts, unforgettable fan experiences and lasting artist growth -- Empowering music executives with actionable insights and next-gen tools to elevate every artist and engage every fan.
 
 ## Features
 
-- AI-powered chatbot
+- AI-powered Personal Label Executive
 - Real-time streaming responses
 - Artist Mode for roster analytics
-- User authentication with Privy
+- User authentication
 - Integration with Supabase for data storage
 - Tailwind CSS for styling
 - TypeScript for type safety
@@ -47,7 +47,7 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 ## Key Components
 
 - `LandingPage`: The main landing page component
-- `Chat`: The core chat interface component
+- `Chat`: The core Executive Agent chat interface component
 - `Suggestions`: Provides chat suggestions to users
 
 ## Configuration
